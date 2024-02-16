@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  CharactersListView.swift
 //  RickAndMorty
 //
 //  Created by Piotr Kłobukowski on 15/02/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CharactersListView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    CharactersListView()
 }
