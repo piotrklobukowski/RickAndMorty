@@ -10,12 +10,14 @@ import SwiftUI
 struct CharactersListView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Tap button below to load list of characters from Rick and Morty sitcom")
+                .multilineTextAlignment(.center)
+                .padding()
+            Button("Load characters") {
+                
+            }
+            .buttonStyle(.borderedProminent)
         }
-        .padding()
     }
 }
 
