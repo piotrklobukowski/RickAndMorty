@@ -8,5 +8,6 @@
 import Foundation
 
 struct Info: Decodable {
-    let next: String
+    let count: Int
+    let next: String?
 }
